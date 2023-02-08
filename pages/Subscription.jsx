@@ -9,7 +9,7 @@ import Link from "next/link";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
-import { runOut } from "../styles/Subscription.module.css";
+
 
 //styles
 import {
@@ -46,6 +46,7 @@ const Subscription = () => {
     <>
       <Navbar />
       <Box
+        data-testid="hero"
         style={{
           maxWidth: "100%",
           height: "880px",

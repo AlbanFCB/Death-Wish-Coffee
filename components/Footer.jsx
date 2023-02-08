@@ -20,7 +20,7 @@ import {footerRed,
 const Footer = () => {
     return (
 
-        <Box >
+        <Box>
             <AppBar position='static' sx={{ top: 'auto', bottom: 0,marginTop:'100px' }} >
                 <Container style={{ backgroundColor: '#e12727', maxHeight: 206, maxWidth: '100%' }} className={footerRed}>
                     <Typography

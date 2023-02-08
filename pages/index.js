@@ -11,11 +11,11 @@ const index = () => {
 
   return (
     <>
-      <Navbar/>
-      <SubNavbar/>
-      <FeaturedProducts/>
-      <HomepageVideos/>
-      <CoffeeCulture/>
+      <Navbar />
+      <SubNavbar />
+      <FeaturedProducts />
+      <HomepageVideos />
+      <CoffeeCulture />
       <Footer/>
     </>
   )

@@ -32,7 +32,7 @@ import {
 
 const HomepageVideos = () => {
   return (
-    <>
+    <div>
       <Box
         style={{
           width: "100%",
@@ -151,19 +151,19 @@ const HomepageVideos = () => {
           <Button
             variant="contained"
             className={beansButton}
-            /* style={{
-                            fontFamily: "'FenomenSans-Book'",
-                            color: "black",
-                            backgroundColor: 'red',
-                            width: "210px",
-                            height: "60px",
-                            fontWeight: "500",
-                            marginTop: "50px",
-                            marginLeft: 700,
-                            marginRight: 15,
-                            display: "inline-block",
-                            cursor: 'pointer'
-                        }} */
+          /* style={{
+                          fontFamily: "'FenomenSans-Book'",
+                          color: "black",
+                          backgroundColor: 'red',
+                          width: "210px",
+                          height: "60px",
+                          fontWeight: "500",
+                          marginTop: "50px",
+                          marginLeft: 700,
+                          marginRight: 15,
+                          display: "inline-block",
+                          cursor: 'pointer'
+                      }} */
           >
             <Link href="#">THE STORE</Link>
           </Button>
@@ -178,7 +178,7 @@ const HomepageVideos = () => {
           </Button>
         </Box>
       </Container>
-    </>
+    </div>
   );
 };
 
